@@ -1,0 +1,62 @@
+{
+    "name": "yaroslawww/laravel-naviga-ad",
+    "description": "Unofficial web integration with naviga ad api",
+    "keywords": [
+        "navigaglonal",
+        "naviga-ad",
+        "naviga"
+    ],
+    "homepage": "https://github.com/yaroslawww/laravel-naviga-ad",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Yaroslav Georgitsa",
+            "email": "yaroslav.georgitsa@gmail.com",
+            "homepage": "https://github.com/yaroslawww",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "illuminate/support": "^8.0|^9.0"
+    },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^3.6",
+        "guzzlehttp/guzzle": "^7.4",
+        "orchestra/testbench": "^6.24",
+        "phpunit/phpunit": "^9.5",
+        "psalm/plugin-laravel": "^1.5",
+        "vimeo/psalm": "^4.20"
+    },
+    "autoload": {
+        "psr-4": {
+            "NavigaAdClient\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "NavigaAdClient\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage",
+        "format": "vendor/bin/php-cs-fixer fix --allow-risky=yes",
+        "psalm": "vendor/bin/psalm"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "NavigaAdClient\\ServiceProvider"
+            ],
+            "aliases": {
+                "NavigaAd": "NavigaAdClient\\NavigaAd"
+            }
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
