@@ -7,7 +7,6 @@ use NavigaAdClient\NavigaAd;
 
 class GeneralRequestTest extends TestCase
 {
-
     /** @test */
     public function simple_request()
     {

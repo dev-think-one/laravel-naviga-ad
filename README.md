@@ -7,7 +7,8 @@
 [![Code Coverage](https://scrutinizer-ci.com/g/yaroslawww/laravel-naviga-ad/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/yaroslawww/laravel-naviga-ad/?branch=master)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/yaroslawww/laravel-naviga-ad/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/yaroslawww/laravel-naviga-ad/?branch=master)
 
-Unofficial web integration with naviga ad api
+Unofficial web integration with naviga [ad api](docs/API%20Quick%20Reference%20Guide.pdf). <br>
+Web reference [there](https://dev.navigahub.com/ElanWebPlatform/devdigital/swagger/ui/index)
 
 ## Installation
 

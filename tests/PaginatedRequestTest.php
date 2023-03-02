@@ -8,7 +8,6 @@ use NavigaAdClient\Responses\PaginatedResponse;
 
 class PaginatedRequestTest extends TestCase
 {
-
     /** @test */
     public function simple_request()
     {
