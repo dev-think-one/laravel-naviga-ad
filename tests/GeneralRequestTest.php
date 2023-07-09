@@ -16,6 +16,10 @@ class GeneralRequestTest extends TestCase
 
             return Http::response(json_encode([]), 200);
         });
+
+        /** @var \Illuminate\Http\Client\Response $response */
         $response = NavigaAd::pendingRequest()->get('/api/ad/sizes');
+
+        $this->assertTrue($response->successful());
     }
 }
