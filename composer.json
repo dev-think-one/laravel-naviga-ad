@@ -1,17 +1,17 @@
 {
-    "name": "yaroslawww/laravel-naviga-ad",
+    "name": "think.studio/laravel-naviga-ad",
     "description": "Unofficial web integration with naviga ad api",
     "keywords": [
         "navigaglonal",
         "naviga-ad",
         "naviga"
     ],
-    "homepage": "https://github.com/yaroslawww/laravel-naviga-ad",
+    "homepage": "https://github.com/dev-think-one/laravel-naviga-ad",
     "license": "MIT",
     "authors": [
         {
             "name": "Yaroslav Georgitsa",
-            "email": "yaroslav.georgitsa@gmail.com",
+            "email": "yg@think.studio",
             "homepage": "https://github.com/yaroslawww",
             "role": "Developer"
         }
@@ -21,12 +21,12 @@
         "illuminate/support": "^9.0|^10.0"
     },
     "require-dev": {
-        "friendsofphp/php-cs-fixer": "^3.14",
+        "friendsofphp/php-cs-fixer": "^3.20",
         "guzzlehttp/guzzle": "^7.5",
-        "orchestra/testbench": "^8.0",
-        "phpunit/phpunit": "^10.0",
+        "orchestra/testbench": "^8.5",
+        "phpunit/phpunit": "^10.2",
         "psalm/plugin-laravel": "^2.8",
-        "vimeo/psalm": "^5.7"
+        "vimeo/psalm": "^5.13"
     },
     "autoload": {
         "psr-4": {
